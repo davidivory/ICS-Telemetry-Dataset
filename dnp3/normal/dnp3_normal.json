@@ -1,12 +1,5002 @@
 [
-  {"timestamp":"2025-08-01T08:00:00Z","device_id":"RTU-001","protocol":"DNP3","event_type":"analog_input","index":0,"value":123.4,"severity":"info","source_ip":"10.0.0.1"},
-  {"timestamp":"2025-08-01T08:00:05Z","device_id":"RTU-002","protocol":"DNP3","event_type":"digital_input","index":1,"value":1,"severity":"info","source_ip":"10.0.0.2"},
-  {"timestamp":"2025-08-01T08:00:10Z","device_id":"RTU-003","protocol":"DNP3","event_type":"status","index":2,"value":"OK","severity":"info","source_ip":"10.0.0.3"},
-  {"timestamp":"2025-08-01T08:00:15Z","device_id":"RTU-004","protocol":"DNP3","event_type":"counter","index":3,"value":42,"severity":"info","source_ip":"10.0.0.4"},
-  {"timestamp":"2025-08-01T08:00:20Z","device_id":"RTU-005","protocol":"DNP3","event_type":"analog_input","index":4,"value":98.7,"severity":"info","source_ip":"10.0.0.5"},
-  {"timestamp":"2025-08-01T08:00:25Z","device_id":"RTU-006","protocol":"DNP3","event_type":"digital_input","index":5,"value":0,"severity":"info","source_ip":"10.0.0.6"},
-  {"timestamp":"2025-08-01T08:00:30Z","device_id":"RTU-007","protocol":"DNP3","event_type":"status","index":6,"value":"WARN","severity":"warning","source_ip":"10.0.0.7"},
-  {"timestamp":"2025-08-01T08:00:35Z","device_id":"RTU-008","protocol":"DNP3","event_type":"counter","index":7,"value":43,"severity":"info","source_ip":"10.0.0.8"},
-  {"timestamp":"2025-08-01T08:00:40Z","device_id":"RTU-009","protocol":"DNP3","event_type":"analog_input","index":8,"value":110.2,"severity":"info","source_ip":"10.0.0.9"},
-  {"timestamp":"2025-08-01T08:00:45Z","device_id":"RTU-010","protocol":"DNP3","event_type":"digital_input","index":9,"value":1,"severity":"info","source_ip":"10.0.0.10"}
+  {
+    "timestamp": "2025-08-01T08:00:00Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 18,
+    "source_ip": "10.0.0.15",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:00:07Z",
+    "device_id": "RTU-012",
+    "protocol": "DNP3",
+    "index": 28,
+    "source_ip": "10.0.0.65",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:00:15Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 96,
+    "source_ip": "10.0.0.62",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:00:24Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 84,
+    "source_ip": "10.0.0.126",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:00:31Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 85,
+    "source_ip": "10.0.0.178",
+    "event_type": "analog_input",
+    "value": 247.3,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:00:36Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 92,
+    "source_ip": "10.0.0.183",
+    "event_type": "analog_input",
+    "value": 164.7,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:00:43Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 31,
+    "source_ip": "10.0.0.130",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:00:49Z",
+    "device_id": "RTU-018",
+    "protocol": "DNP3",
+    "index": 76,
+    "source_ip": "10.0.0.207",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:00:59Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 16,
+    "source_ip": "10.0.0.31",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:01:04Z",
+    "device_id": "RTU-012",
+    "protocol": "DNP3",
+    "index": 54,
+    "source_ip": "10.0.0.191",
+    "event_type": "counter",
+    "value": 66,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:01:10Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 72,
+    "source_ip": "10.0.0.58",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:01:19Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 12,
+    "source_ip": "10.0.0.216",
+    "event_type": "analog_input",
+    "value": 184.0,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:01:28Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 96,
+    "source_ip": "10.0.0.16",
+    "event_type": "counter",
+    "value": 24,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:01:34Z",
+    "device_id": "RTU-015",
+    "protocol": "DNP3",
+    "index": 7,
+    "source_ip": "10.0.0.75",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:01:44Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 67,
+    "source_ip": "10.0.0.145",
+    "event_type": "analog_input",
+    "value": 44.6,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:01:52Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 79,
+    "source_ip": "10.0.0.104",
+    "event_type": "analog_input",
+    "value": 194.3,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:02:01Z",
+    "device_id": "RTU-012",
+    "protocol": "DNP3",
+    "index": 45,
+    "source_ip": "10.0.0.179",
+    "event_type": "counter",
+    "value": 67,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:02:06Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 42,
+    "source_ip": "10.0.0.68",
+    "event_type": "counter",
+    "value": 59,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:02:14Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 58,
+    "source_ip": "10.0.0.168",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:02:19Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 51,
+    "source_ip": "10.0.0.235",
+    "event_type": "analog_input",
+    "value": 130.1,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:02:27Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 66,
+    "source_ip": "10.0.0.3",
+    "event_type": "counter",
+    "value": 47,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:02:34Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 95,
+    "source_ip": "10.0.0.224",
+    "event_type": "analog_input",
+    "value": 113.1,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:02:40Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 99,
+    "source_ip": "10.0.0.207",
+    "event_type": "analog_input",
+    "value": 198.9,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:02:47Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 2,
+    "source_ip": "10.0.0.185",
+    "event_type": "analog_input",
+    "value": 241.5,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:02:53Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 16,
+    "source_ip": "10.0.0.130",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:03:00Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 4,
+    "source_ip": "10.0.0.53",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:03:10Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 41,
+    "source_ip": "10.0.0.177",
+    "event_type": "analog_input",
+    "value": 143.4,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:03:15Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 3,
+    "source_ip": "10.0.0.83",
+    "event_type": "analog_input",
+    "value": 189.5,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:03:24Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 10,
+    "source_ip": "10.0.0.58",
+    "event_type": "counter",
+    "value": 75,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:03:29Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 58,
+    "source_ip": "10.0.0.113",
+    "event_type": "analog_input",
+    "value": 165.5,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:03:34Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 2,
+    "source_ip": "10.0.0.11",
+    "event_type": "counter",
+    "value": 79,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:03:41Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 84,
+    "source_ip": "10.0.0.190",
+    "event_type": "analog_input",
+    "value": 178.0,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:03:49Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 47,
+    "source_ip": "10.0.0.230",
+    "event_type": "analog_input",
+    "value": 155.2,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:03:55Z",
+    "device_id": "RTU-012",
+    "protocol": "DNP3",
+    "index": 40,
+    "source_ip": "10.0.0.140",
+    "event_type": "analog_input",
+    "value": 70.9,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:04:00Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 74,
+    "source_ip": "10.0.0.105",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:04:05Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 23,
+    "source_ip": "10.0.0.91",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:04:15Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 53,
+    "source_ip": "10.0.0.240",
+    "event_type": "analog_input",
+    "value": 126.6,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:04:24Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 66,
+    "source_ip": "10.0.0.228",
+    "event_type": "counter",
+    "value": 61,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:04:32Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 43,
+    "source_ip": "10.0.0.215",
+    "event_type": "counter",
+    "value": 98,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:04:38Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 93,
+    "source_ip": "10.0.0.92",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:04:48Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 60,
+    "source_ip": "10.0.0.66",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:04:55Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 7,
+    "source_ip": "10.0.0.6",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:05:04Z",
+    "device_id": "RTU-018",
+    "protocol": "DNP3",
+    "index": 70,
+    "source_ip": "10.0.0.213",
+    "event_type": "counter",
+    "value": 6,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:05:10Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 22,
+    "source_ip": "10.0.0.144",
+    "event_type": "analog_input",
+    "value": 173.9,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:05:18Z",
+    "device_id": "RTU-007",
+    "protocol": "DNP3",
+    "index": 55,
+    "source_ip": "10.0.0.149",
+    "event_type": "counter",
+    "value": 86,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:05:26Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 18,
+    "source_ip": "10.0.0.131",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:05:33Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 2,
+    "source_ip": "10.0.0.187",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:05:40Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 43,
+    "source_ip": "10.0.0.50",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:05:45Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 36,
+    "source_ip": "10.0.0.150",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:05:54Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 40,
+    "source_ip": "10.0.0.63",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:06:02Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 33,
+    "source_ip": "10.0.0.117",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:06:11Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 74,
+    "source_ip": "10.0.0.91",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:06:16Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 29,
+    "source_ip": "10.0.0.37",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:06:24Z",
+    "device_id": "RTU-012",
+    "protocol": "DNP3",
+    "index": 18,
+    "source_ip": "10.0.0.251",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:06:31Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 14,
+    "source_ip": "10.0.0.142",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:06:41Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 22,
+    "source_ip": "10.0.0.7",
+    "event_type": "counter",
+    "value": 49,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:06:49Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 17,
+    "source_ip": "10.0.0.25",
+    "event_type": "analog_input",
+    "value": 141.8,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:06:58Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 1,
+    "source_ip": "10.0.0.121",
+    "event_type": "analog_input",
+    "value": 134.5,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:07:05Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 44,
+    "source_ip": "10.0.0.56",
+    "event_type": "analog_input",
+    "value": 191.7,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:07:11Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 2,
+    "source_ip": "10.0.0.198",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:07:18Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 95,
+    "source_ip": "10.0.0.219",
+    "event_type": "counter",
+    "value": 12,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:07:26Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 91,
+    "source_ip": "10.0.0.75",
+    "event_type": "analog_input",
+    "value": 38.2,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:07:31Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 29,
+    "source_ip": "10.0.0.134",
+    "event_type": "counter",
+    "value": 2,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:07:41Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 29,
+    "source_ip": "10.0.0.224",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:07:47Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 69,
+    "source_ip": "10.0.0.1",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:07:57Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 41,
+    "source_ip": "10.0.0.130",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:08:07Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 4,
+    "source_ip": "10.0.0.144",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:08:14Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 2,
+    "source_ip": "10.0.0.144",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:08:21Z",
+    "device_id": "RTU-018",
+    "protocol": "DNP3",
+    "index": 47,
+    "source_ip": "10.0.0.104",
+    "event_type": "counter",
+    "value": 29,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:08:29Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 87,
+    "source_ip": "10.0.0.81",
+    "event_type": "analog_input",
+    "value": 220.8,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:08:36Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 73,
+    "source_ip": "10.0.0.21",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:08:46Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 68,
+    "source_ip": "10.0.0.194",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:08:53Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 52,
+    "source_ip": "10.0.0.140",
+    "event_type": "analog_input",
+    "value": 78.0,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:08:58Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 38,
+    "source_ip": "10.0.0.73",
+    "event_type": "analog_input",
+    "value": 89.8,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:09:05Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 80,
+    "source_ip": "10.0.0.135",
+    "event_type": "analog_input",
+    "value": 39.8,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:09:13Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 96,
+    "source_ip": "10.0.0.169",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:09:23Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 5,
+    "source_ip": "10.0.0.152",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:09:31Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 63,
+    "source_ip": "10.0.0.5",
+    "event_type": "counter",
+    "value": 100,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:09:39Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 18,
+    "source_ip": "10.0.0.160",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:09:47Z",
+    "device_id": "RTU-015",
+    "protocol": "DNP3",
+    "index": 81,
+    "source_ip": "10.0.0.227",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:09:52Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 46,
+    "source_ip": "10.0.0.184",
+    "event_type": "analog_input",
+    "value": 86.5,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:09:57Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 15,
+    "source_ip": "10.0.0.79",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:10:04Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 74,
+    "source_ip": "10.0.0.228",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:10:13Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 34,
+    "source_ip": "10.0.0.239",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:10:22Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 10,
+    "source_ip": "10.0.0.124",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:10:32Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 45,
+    "source_ip": "10.0.0.116",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:10:37Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 24,
+    "source_ip": "10.0.0.214",
+    "event_type": "analog_input",
+    "value": 209.4,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:10:44Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 4,
+    "source_ip": "10.0.0.126",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:10:53Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 56,
+    "source_ip": "10.0.0.121",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:11:03Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 50,
+    "source_ip": "10.0.0.18",
+    "event_type": "counter",
+    "value": 35,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:11:13Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 75,
+    "source_ip": "10.0.0.197",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:11:22Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 85,
+    "source_ip": "10.0.0.102",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:11:31Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 84,
+    "source_ip": "10.0.0.33",
+    "event_type": "analog_input",
+    "value": 64.5,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:11:38Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 4,
+    "source_ip": "10.0.0.237",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:11:46Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 49,
+    "source_ip": "10.0.0.150",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:11:52Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 77,
+    "source_ip": "10.0.0.160",
+    "event_type": "analog_input",
+    "value": 212.0,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:12:02Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 99,
+    "source_ip": "10.0.0.77",
+    "event_type": "analog_input",
+    "value": 245.9,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:12:07Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 24,
+    "source_ip": "10.0.0.22",
+    "event_type": "analog_input",
+    "value": 175.8,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:12:16Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 99,
+    "source_ip": "10.0.0.1",
+    "event_type": "analog_input",
+    "value": 161.7,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:12:24Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 17,
+    "source_ip": "10.0.0.182",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:12:29Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 4,
+    "source_ip": "10.0.0.68",
+    "event_type": "counter",
+    "value": 51,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:12:35Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 56,
+    "source_ip": "10.0.0.46",
+    "event_type": "counter",
+    "value": 7,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:12:44Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 80,
+    "source_ip": "10.0.0.199",
+    "event_type": "analog_input",
+    "value": 209.2,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:12:53Z",
+    "device_id": "RTU-018",
+    "protocol": "DNP3",
+    "index": 9,
+    "source_ip": "10.0.0.112",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:13:00Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 87,
+    "source_ip": "10.0.0.248",
+    "event_type": "analog_input",
+    "value": 42.6,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:13:10Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 97,
+    "source_ip": "10.0.0.142",
+    "event_type": "counter",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:13:20Z",
+    "device_id": "RTU-015",
+    "protocol": "DNP3",
+    "index": 71,
+    "source_ip": "10.0.0.72",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:13:28Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 44,
+    "source_ip": "10.0.0.166",
+    "event_type": "counter",
+    "value": 43,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:13:38Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 99,
+    "source_ip": "10.0.0.145",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:13:48Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 45,
+    "source_ip": "10.0.0.215",
+    "event_type": "analog_input",
+    "value": 195.7,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:13:55Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 76,
+    "source_ip": "10.0.0.180",
+    "event_type": "counter",
+    "value": 8,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:14:00Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 78,
+    "source_ip": "10.0.0.156",
+    "event_type": "analog_input",
+    "value": 45.5,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:14:05Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 15,
+    "source_ip": "10.0.0.31",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:14:11Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 75,
+    "source_ip": "10.0.0.228",
+    "event_type": "analog_input",
+    "value": 56.2,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:14:21Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 78,
+    "source_ip": "10.0.0.216",
+    "event_type": "counter",
+    "value": 86,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:14:26Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 14,
+    "source_ip": "10.0.0.30",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:14:35Z",
+    "device_id": "RTU-015",
+    "protocol": "DNP3",
+    "index": 48,
+    "source_ip": "10.0.0.230",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:14:41Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 5,
+    "source_ip": "10.0.0.253",
+    "event_type": "counter",
+    "value": 73,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:14:46Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 78,
+    "source_ip": "10.0.0.215",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:14:55Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 7,
+    "source_ip": "10.0.0.23",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:15:04Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 19,
+    "source_ip": "10.0.0.77",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:15:10Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 38,
+    "source_ip": "10.0.0.144",
+    "event_type": "analog_input",
+    "value": 170.0,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:15:19Z",
+    "device_id": "RTU-012",
+    "protocol": "DNP3",
+    "index": 36,
+    "source_ip": "10.0.0.32",
+    "event_type": "counter",
+    "value": 10,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:15:29Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 8,
+    "source_ip": "10.0.0.195",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:15:38Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 41,
+    "source_ip": "10.0.0.42",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:15:48Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 46,
+    "source_ip": "10.0.0.183",
+    "event_type": "counter",
+    "value": 28,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:15:56Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 11,
+    "source_ip": "10.0.0.121",
+    "event_type": "analog_input",
+    "value": 249.5,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:16:06Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 52,
+    "source_ip": "10.0.0.204",
+    "event_type": "analog_input",
+    "value": 127.5,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:16:11Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 51,
+    "source_ip": "10.0.0.252",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:16:18Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 76,
+    "source_ip": "10.0.0.10",
+    "event_type": "analog_input",
+    "value": 181.6,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:16:26Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 80,
+    "source_ip": "10.0.0.40",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:16:36Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 63,
+    "source_ip": "10.0.0.65",
+    "event_type": "counter",
+    "value": 95,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:16:44Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 83,
+    "source_ip": "10.0.0.205",
+    "event_type": "counter",
+    "value": 71,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:16:54Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 56,
+    "source_ip": "10.0.0.79",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:17:03Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 50,
+    "source_ip": "10.0.0.93",
+    "event_type": "analog_input",
+    "value": 7.5,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:17:09Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 88,
+    "source_ip": "10.0.0.151",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:17:16Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 83,
+    "source_ip": "10.0.0.105",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:17:25Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 20,
+    "source_ip": "10.0.0.24",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:17:34Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 13,
+    "source_ip": "10.0.0.144",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:17:42Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 22,
+    "source_ip": "10.0.0.65",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:17:48Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 76,
+    "source_ip": "10.0.0.11",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:17:53Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 65,
+    "source_ip": "10.0.0.177",
+    "event_type": "analog_input",
+    "value": 187.7,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:18:02Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 31,
+    "source_ip": "10.0.0.104",
+    "event_type": "counter",
+    "value": 82,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:18:12Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 93,
+    "source_ip": "10.0.0.32",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:18:18Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 99,
+    "source_ip": "10.0.0.127",
+    "event_type": "counter",
+    "value": 57,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:18:25Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 71,
+    "source_ip": "10.0.0.203",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:18:32Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 62,
+    "source_ip": "10.0.0.4",
+    "event_type": "counter",
+    "value": 6,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:18:37Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 17,
+    "source_ip": "10.0.0.132",
+    "event_type": "analog_input",
+    "value": 65.2,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:18:44Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 45,
+    "source_ip": "10.0.0.243",
+    "event_type": "counter",
+    "value": 53,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:18:51Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 94,
+    "source_ip": "10.0.0.17",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:18:56Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 75,
+    "source_ip": "10.0.0.241",
+    "event_type": "counter",
+    "value": 78,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:19:02Z",
+    "device_id": "RTU-018",
+    "protocol": "DNP3",
+    "index": 43,
+    "source_ip": "10.0.0.209",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:19:10Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 98,
+    "source_ip": "10.0.0.181",
+    "event_type": "analog_input",
+    "value": 167.9,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:19:17Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 7,
+    "source_ip": "10.0.0.12",
+    "event_type": "counter",
+    "value": 6,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:19:25Z",
+    "device_id": "RTU-015",
+    "protocol": "DNP3",
+    "index": 62,
+    "source_ip": "10.0.0.72",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:19:32Z",
+    "device_id": "RTU-018",
+    "protocol": "DNP3",
+    "index": 32,
+    "source_ip": "10.0.0.50",
+    "event_type": "analog_input",
+    "value": 204.8,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:19:41Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 96,
+    "source_ip": "10.0.0.241",
+    "event_type": "counter",
+    "value": 41,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:19:47Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 58,
+    "source_ip": "10.0.0.9",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:19:54Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 57,
+    "source_ip": "10.0.0.138",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:20:03Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 6,
+    "source_ip": "10.0.0.103",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:20:12Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 85,
+    "source_ip": "10.0.0.69",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:20:18Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 82,
+    "source_ip": "10.0.0.249",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:20:26Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 96,
+    "source_ip": "10.0.0.57",
+    "event_type": "analog_input",
+    "value": 157.2,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:20:33Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 15,
+    "source_ip": "10.0.0.92",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:20:42Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 12,
+    "source_ip": "10.0.0.107",
+    "event_type": "analog_input",
+    "value": 236.5,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:20:49Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 36,
+    "source_ip": "10.0.0.216",
+    "event_type": "counter",
+    "value": 2,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:20:59Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 64,
+    "source_ip": "10.0.0.200",
+    "event_type": "analog_input",
+    "value": 29.3,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:21:09Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 3,
+    "source_ip": "10.0.0.216",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:21:16Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 54,
+    "source_ip": "10.0.0.38",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:21:23Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 26,
+    "source_ip": "10.0.0.42",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:21:32Z",
+    "device_id": "RTU-015",
+    "protocol": "DNP3",
+    "index": 66,
+    "source_ip": "10.0.0.170",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:21:41Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 46,
+    "source_ip": "10.0.0.119",
+    "event_type": "counter",
+    "value": 42,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:21:46Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 0,
+    "source_ip": "10.0.0.44",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:21:54Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 0,
+    "source_ip": "10.0.0.209",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:22:02Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 45,
+    "source_ip": "10.0.0.247",
+    "event_type": "analog_input",
+    "value": 152.3,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:22:08Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 95,
+    "source_ip": "10.0.0.22",
+    "event_type": "analog_input",
+    "value": 247.1,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:22:16Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 29,
+    "source_ip": "10.0.0.86",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:22:24Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 94,
+    "source_ip": "10.0.0.101",
+    "event_type": "analog_input",
+    "value": 137.4,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:22:32Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 13,
+    "source_ip": "10.0.0.90",
+    "event_type": "counter",
+    "value": 76,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:22:41Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 60,
+    "source_ip": "10.0.0.20",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:22:48Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 50,
+    "source_ip": "10.0.0.32",
+    "event_type": "counter",
+    "value": 25,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:22:58Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 35,
+    "source_ip": "10.0.0.69",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:23:04Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 21,
+    "source_ip": "10.0.0.139",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:23:12Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 57,
+    "source_ip": "10.0.0.108",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:23:19Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 89,
+    "source_ip": "10.0.0.141",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:23:27Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 33,
+    "source_ip": "10.0.0.165",
+    "event_type": "counter",
+    "value": 66,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:23:35Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 78,
+    "source_ip": "10.0.0.195",
+    "event_type": "counter",
+    "value": 82,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:23:44Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 64,
+    "source_ip": "10.0.0.32",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:23:51Z",
+    "device_id": "RTU-012",
+    "protocol": "DNP3",
+    "index": 68,
+    "source_ip": "10.0.0.131",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:24:01Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 29,
+    "source_ip": "10.0.0.97",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:24:11Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 7,
+    "source_ip": "10.0.0.128",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:24:18Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 99,
+    "source_ip": "10.0.0.50",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:24:28Z",
+    "device_id": "RTU-012",
+    "protocol": "DNP3",
+    "index": 40,
+    "source_ip": "10.0.0.144",
+    "event_type": "counter",
+    "value": 59,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:24:36Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 0,
+    "source_ip": "10.0.0.52",
+    "event_type": "analog_input",
+    "value": 167.1,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:24:45Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 50,
+    "source_ip": "10.0.0.153",
+    "event_type": "analog_input",
+    "value": 155.1,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:24:52Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 24,
+    "source_ip": "10.0.0.140",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:24:57Z",
+    "device_id": "RTU-007",
+    "protocol": "DNP3",
+    "index": 34,
+    "source_ip": "10.0.0.220",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:25:05Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 98,
+    "source_ip": "10.0.0.73",
+    "event_type": "analog_input",
+    "value": 227.2,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:25:14Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 43,
+    "source_ip": "10.0.0.28",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:25:22Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 42,
+    "source_ip": "10.0.0.159",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:25:30Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 15,
+    "source_ip": "10.0.0.124",
+    "event_type": "counter",
+    "value": 84,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:25:40Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 2,
+    "source_ip": "10.0.0.50",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:25:47Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 30,
+    "source_ip": "10.0.0.26",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:25:55Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 23,
+    "source_ip": "10.0.0.62",
+    "event_type": "analog_input",
+    "value": 117.0,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:26:00Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 86,
+    "source_ip": "10.0.0.231",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:26:09Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 37,
+    "source_ip": "10.0.0.205",
+    "event_type": "analog_input",
+    "value": 221.2,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:26:17Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 89,
+    "source_ip": "10.0.0.250",
+    "event_type": "analog_input",
+    "value": 242.7,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:26:26Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 17,
+    "source_ip": "10.0.0.231",
+    "event_type": "counter",
+    "value": 21,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:26:33Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 34,
+    "source_ip": "10.0.0.26",
+    "event_type": "analog_input",
+    "value": 151.9,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:26:43Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 84,
+    "source_ip": "10.0.0.151",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:26:51Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 88,
+    "source_ip": "10.0.0.169",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:26:58Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 34,
+    "source_ip": "10.0.0.29",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:27:03Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 93,
+    "source_ip": "10.0.0.183",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:27:10Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 16,
+    "source_ip": "10.0.0.204",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:27:19Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 83,
+    "source_ip": "10.0.0.232",
+    "event_type": "counter",
+    "value": 66,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:27:27Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 84,
+    "source_ip": "10.0.0.52",
+    "event_type": "analog_input",
+    "value": 52.1,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:27:37Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 39,
+    "source_ip": "10.0.0.150",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:27:47Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 46,
+    "source_ip": "10.0.0.99",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:27:57Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 79,
+    "source_ip": "10.0.0.195",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:28:05Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 74,
+    "source_ip": "10.0.0.176",
+    "event_type": "analog_input",
+    "value": 121.3,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:28:11Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 64,
+    "source_ip": "10.0.0.153",
+    "event_type": "counter",
+    "value": 19,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:28:18Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 0,
+    "source_ip": "10.0.0.78",
+    "event_type": "analog_input",
+    "value": 100.3,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:28:25Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 33,
+    "source_ip": "10.0.0.101",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:28:31Z",
+    "device_id": "RTU-015",
+    "protocol": "DNP3",
+    "index": 81,
+    "source_ip": "10.0.0.10",
+    "event_type": "counter",
+    "value": 55,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:28:38Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 66,
+    "source_ip": "10.0.0.43",
+    "event_type": "counter",
+    "value": 82,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:28:45Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 63,
+    "source_ip": "10.0.0.160",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:28:53Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 25,
+    "source_ip": "10.0.0.3",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:28:59Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 79,
+    "source_ip": "10.0.0.234",
+    "event_type": "counter",
+    "value": 21,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:29:05Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 50,
+    "source_ip": "10.0.0.6",
+    "event_type": "counter",
+    "value": 41,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:29:12Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 89,
+    "source_ip": "10.0.0.80",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:29:17Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 13,
+    "source_ip": "10.0.0.240",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:29:26Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 6,
+    "source_ip": "10.0.0.229",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:29:34Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 43,
+    "source_ip": "10.0.0.15",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:29:41Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 48,
+    "source_ip": "10.0.0.70",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:29:47Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 39,
+    "source_ip": "10.0.0.68",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:29:56Z",
+    "device_id": "RTU-018",
+    "protocol": "DNP3",
+    "index": 92,
+    "source_ip": "10.0.0.39",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:30:06Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 71,
+    "source_ip": "10.0.0.140",
+    "event_type": "analog_input",
+    "value": 186.7,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:30:12Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 70,
+    "source_ip": "10.0.0.17",
+    "event_type": "analog_input",
+    "value": 33.9,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:30:20Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 32,
+    "source_ip": "10.0.0.167",
+    "event_type": "analog_input",
+    "value": 38.3,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:30:27Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 56,
+    "source_ip": "10.0.0.236",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:30:35Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 38,
+    "source_ip": "10.0.0.192",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:30:41Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 30,
+    "source_ip": "10.0.0.169",
+    "event_type": "counter",
+    "value": 45,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:30:49Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 86,
+    "source_ip": "10.0.0.233",
+    "event_type": "analog_input",
+    "value": 50.4,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:30:54Z",
+    "device_id": "RTU-012",
+    "protocol": "DNP3",
+    "index": 92,
+    "source_ip": "10.0.0.109",
+    "event_type": "counter",
+    "value": 43,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:31:04Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 21,
+    "source_ip": "10.0.0.16",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:31:11Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 61,
+    "source_ip": "10.0.0.205",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:31:18Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 66,
+    "source_ip": "10.0.0.121",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:31:23Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 43,
+    "source_ip": "10.0.0.179",
+    "event_type": "counter",
+    "value": 80,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:31:31Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 56,
+    "source_ip": "10.0.0.92",
+    "event_type": "counter",
+    "value": 63,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:31:38Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 83,
+    "source_ip": "10.0.0.160",
+    "event_type": "counter",
+    "value": 55,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:31:48Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 95,
+    "source_ip": "10.0.0.119",
+    "event_type": "counter",
+    "value": 67,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:31:53Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 2,
+    "source_ip": "10.0.0.42",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:31:58Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 43,
+    "source_ip": "10.0.0.153",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:32:06Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 3,
+    "source_ip": "10.0.0.133",
+    "event_type": "analog_input",
+    "value": 64.1,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:32:13Z",
+    "device_id": "RTU-015",
+    "protocol": "DNP3",
+    "index": 57,
+    "source_ip": "10.0.0.246",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:32:19Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 28,
+    "source_ip": "10.0.0.29",
+    "event_type": "counter",
+    "value": 53,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:32:26Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 95,
+    "source_ip": "10.0.0.230",
+    "event_type": "counter",
+    "value": 87,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:32:35Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 68,
+    "source_ip": "10.0.0.16",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:32:45Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 97,
+    "source_ip": "10.0.0.190",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:32:53Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 9,
+    "source_ip": "10.0.0.88",
+    "event_type": "analog_input",
+    "value": 227.3,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:33:01Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 57,
+    "source_ip": "10.0.0.190",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:33:07Z",
+    "device_id": "RTU-015",
+    "protocol": "DNP3",
+    "index": 13,
+    "source_ip": "10.0.0.166",
+    "event_type": "analog_input",
+    "value": 182.8,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:33:13Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 41,
+    "source_ip": "10.0.0.133",
+    "event_type": "analog_input",
+    "value": 112.9,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:33:18Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 60,
+    "source_ip": "10.0.0.39",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:33:28Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 65,
+    "source_ip": "10.0.0.105",
+    "event_type": "analog_input",
+    "value": 72.6,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:33:36Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 41,
+    "source_ip": "10.0.0.85",
+    "event_type": "counter",
+    "value": 39,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:33:45Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 64,
+    "source_ip": "10.0.0.62",
+    "event_type": "analog_input",
+    "value": 44.3,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:33:55Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 21,
+    "source_ip": "10.0.0.165",
+    "event_type": "analog_input",
+    "value": 56.3,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:34:00Z",
+    "device_id": "RTU-015",
+    "protocol": "DNP3",
+    "index": 7,
+    "source_ip": "10.0.0.253",
+    "event_type": "counter",
+    "value": 61,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:34:09Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 21,
+    "source_ip": "10.0.0.23",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:34:16Z",
+    "device_id": "RTU-012",
+    "protocol": "DNP3",
+    "index": 28,
+    "source_ip": "10.0.0.188",
+    "event_type": "analog_input",
+    "value": 6.8,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:34:21Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 25,
+    "source_ip": "10.0.0.93",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:34:31Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 32,
+    "source_ip": "10.0.0.32",
+    "event_type": "analog_input",
+    "value": 192.7,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:34:39Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 68,
+    "source_ip": "10.0.0.141",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:34:44Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 76,
+    "source_ip": "10.0.0.169",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:34:52Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 3,
+    "source_ip": "10.0.0.97",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:35:00Z",
+    "device_id": "RTU-012",
+    "protocol": "DNP3",
+    "index": 15,
+    "source_ip": "10.0.0.159",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:35:08Z",
+    "device_id": "RTU-015",
+    "protocol": "DNP3",
+    "index": 91,
+    "source_ip": "10.0.0.183",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:35:15Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 69,
+    "source_ip": "10.0.0.65",
+    "event_type": "counter",
+    "value": 94,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:35:21Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 96,
+    "source_ip": "10.0.0.132",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:35:31Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 27,
+    "source_ip": "10.0.0.17",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:35:36Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 67,
+    "source_ip": "10.0.0.106",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:35:41Z",
+    "device_id": "RTU-007",
+    "protocol": "DNP3",
+    "index": 79,
+    "source_ip": "10.0.0.119",
+    "event_type": "analog_input",
+    "value": 146.2,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:35:48Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 15,
+    "source_ip": "10.0.0.23",
+    "event_type": "analog_input",
+    "value": 220.2,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:35:58Z",
+    "device_id": "RTU-018",
+    "protocol": "DNP3",
+    "index": 68,
+    "source_ip": "10.0.0.56",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:36:07Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 43,
+    "source_ip": "10.0.0.243",
+    "event_type": "counter",
+    "value": 68,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:36:15Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 21,
+    "source_ip": "10.0.0.73",
+    "event_type": "analog_input",
+    "value": 123.5,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:36:21Z",
+    "device_id": "RTU-007",
+    "protocol": "DNP3",
+    "index": 68,
+    "source_ip": "10.0.0.89",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:36:30Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 39,
+    "source_ip": "10.0.0.129",
+    "event_type": "analog_input",
+    "value": 194.9,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:36:40Z",
+    "device_id": "RTU-012",
+    "protocol": "DNP3",
+    "index": 42,
+    "source_ip": "10.0.0.139",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:36:50Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 23,
+    "source_ip": "10.0.0.44",
+    "event_type": "counter",
+    "value": 94,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:36:57Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 54,
+    "source_ip": "10.0.0.166",
+    "event_type": "counter",
+    "value": 47,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:37:06Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 73,
+    "source_ip": "10.0.0.149",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:37:15Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 60,
+    "source_ip": "10.0.0.10",
+    "event_type": "counter",
+    "value": 51,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:37:25Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 54,
+    "source_ip": "10.0.0.198",
+    "event_type": "analog_input",
+    "value": 152.6,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:37:35Z",
+    "device_id": "RTU-015",
+    "protocol": "DNP3",
+    "index": 73,
+    "source_ip": "10.0.0.22",
+    "event_type": "counter",
+    "value": 15,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:37:45Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 4,
+    "source_ip": "10.0.0.58",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:37:51Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 60,
+    "source_ip": "10.0.0.249",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:37:57Z",
+    "device_id": "RTU-012",
+    "protocol": "DNP3",
+    "index": 45,
+    "source_ip": "10.0.0.138",
+    "event_type": "counter",
+    "value": 99,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:38:03Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 67,
+    "source_ip": "10.0.0.200",
+    "event_type": "counter",
+    "value": 8,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:38:13Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 98,
+    "source_ip": "10.0.0.218",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:38:18Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 79,
+    "source_ip": "10.0.0.38",
+    "event_type": "counter",
+    "value": 20,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:38:24Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 3,
+    "source_ip": "10.0.0.11",
+    "event_type": "counter",
+    "value": 29,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:38:34Z",
+    "device_id": "RTU-007",
+    "protocol": "DNP3",
+    "index": 12,
+    "source_ip": "10.0.0.185",
+    "event_type": "counter",
+    "value": 2,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:38:39Z",
+    "device_id": "RTU-007",
+    "protocol": "DNP3",
+    "index": 46,
+    "source_ip": "10.0.0.242",
+    "event_type": "analog_input",
+    "value": 241.6,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:38:47Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 0,
+    "source_ip": "10.0.0.218",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:38:56Z",
+    "device_id": "RTU-007",
+    "protocol": "DNP3",
+    "index": 86,
+    "source_ip": "10.0.0.134",
+    "event_type": "analog_input",
+    "value": 158.5,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:39:02Z",
+    "device_id": "RTU-007",
+    "protocol": "DNP3",
+    "index": 41,
+    "source_ip": "10.0.0.128",
+    "event_type": "analog_input",
+    "value": 4.9,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:39:07Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 55,
+    "source_ip": "10.0.0.159",
+    "event_type": "counter",
+    "value": 56,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:39:12Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 87,
+    "source_ip": "10.0.0.29",
+    "event_type": "analog_input",
+    "value": 119.6,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:39:19Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 22,
+    "source_ip": "10.0.0.222",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:39:28Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 87,
+    "source_ip": "10.0.0.55",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:39:36Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 78,
+    "source_ip": "10.0.0.120",
+    "event_type": "analog_input",
+    "value": 152.2,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:39:41Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 16,
+    "source_ip": "10.0.0.87",
+    "event_type": "counter",
+    "value": 12,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:39:48Z",
+    "device_id": "RTU-018",
+    "protocol": "DNP3",
+    "index": 26,
+    "source_ip": "10.0.0.197",
+    "event_type": "counter",
+    "value": 99,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:39:55Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 4,
+    "source_ip": "10.0.0.5",
+    "event_type": "counter",
+    "value": 87,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:40:05Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 69,
+    "source_ip": "10.0.0.192",
+    "event_type": "counter",
+    "value": 91,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:40:10Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 11,
+    "source_ip": "10.0.0.45",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:40:20Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 75,
+    "source_ip": "10.0.0.247",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:40:30Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 58,
+    "source_ip": "10.0.0.197",
+    "event_type": "analog_input",
+    "value": 232.3,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:40:37Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 94,
+    "source_ip": "10.0.0.71",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:40:44Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 79,
+    "source_ip": "10.0.0.141",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:40:49Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 89,
+    "source_ip": "10.0.0.228",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:40:54Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 11,
+    "source_ip": "10.0.0.156",
+    "event_type": "analog_input",
+    "value": 216.9,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:41:04Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 60,
+    "source_ip": "10.0.0.7",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:41:11Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 88,
+    "source_ip": "10.0.0.134",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:41:18Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 29,
+    "source_ip": "10.0.0.152",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:41:25Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 56,
+    "source_ip": "10.0.0.102",
+    "event_type": "analog_input",
+    "value": 231.0,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:41:35Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 67,
+    "source_ip": "10.0.0.109",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:41:42Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 34,
+    "source_ip": "10.0.0.163",
+    "event_type": "analog_input",
+    "value": 65.8,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:41:47Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 96,
+    "source_ip": "10.0.0.77",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:41:52Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 60,
+    "source_ip": "10.0.0.3",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:42:01Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 19,
+    "source_ip": "10.0.0.74",
+    "event_type": "counter",
+    "value": 23,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:42:06Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 92,
+    "source_ip": "10.0.0.92",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:42:14Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 21,
+    "source_ip": "10.0.0.138",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:42:19Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 81,
+    "source_ip": "10.0.0.7",
+    "event_type": "analog_input",
+    "value": 59.0,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:42:25Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 2,
+    "source_ip": "10.0.0.170",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:42:35Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 79,
+    "source_ip": "10.0.0.213",
+    "event_type": "counter",
+    "value": 75,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:42:41Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 95,
+    "source_ip": "10.0.0.214",
+    "event_type": "analog_input",
+    "value": 152.9,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:42:50Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 90,
+    "source_ip": "10.0.0.69",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:43:00Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 85,
+    "source_ip": "10.0.0.147",
+    "event_type": "counter",
+    "value": 34,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:43:09Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 81,
+    "source_ip": "10.0.0.180",
+    "event_type": "analog_input",
+    "value": 24.5,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:43:14Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 6,
+    "source_ip": "10.0.0.241",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:43:21Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 51,
+    "source_ip": "10.0.0.80",
+    "event_type": "counter",
+    "value": 78,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:43:30Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 80,
+    "source_ip": "10.0.0.68",
+    "event_type": "counter",
+    "value": 86,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:43:39Z",
+    "device_id": "RTU-018",
+    "protocol": "DNP3",
+    "index": 17,
+    "source_ip": "10.0.0.236",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:43:48Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 63,
+    "source_ip": "10.0.0.158",
+    "event_type": "counter",
+    "value": 40,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:43:57Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 41,
+    "source_ip": "10.0.0.18",
+    "event_type": "counter",
+    "value": 26,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:44:04Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 89,
+    "source_ip": "10.0.0.205",
+    "event_type": "analog_input",
+    "value": 45.5,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:44:09Z",
+    "device_id": "RTU-018",
+    "protocol": "DNP3",
+    "index": 66,
+    "source_ip": "10.0.0.163",
+    "event_type": "counter",
+    "value": 94,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:44:19Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 37,
+    "source_ip": "10.0.0.64",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:44:26Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 43,
+    "source_ip": "10.0.0.149",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:44:31Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 44,
+    "source_ip": "10.0.0.238",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:44:39Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 59,
+    "source_ip": "10.0.0.102",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:44:49Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 55,
+    "source_ip": "10.0.0.28",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:44:55Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 39,
+    "source_ip": "10.0.0.31",
+    "event_type": "counter",
+    "value": 47,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:45:00Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 87,
+    "source_ip": "10.0.0.57",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:45:09Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 87,
+    "source_ip": "10.0.0.82",
+    "event_type": "analog_input",
+    "value": 91.8,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:45:19Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 84,
+    "source_ip": "10.0.0.176",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:45:29Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 58,
+    "source_ip": "10.0.0.11",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:45:35Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 10,
+    "source_ip": "10.0.0.177",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:45:45Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 8,
+    "source_ip": "10.0.0.157",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:45:54Z",
+    "device_id": "RTU-018",
+    "protocol": "DNP3",
+    "index": 61,
+    "source_ip": "10.0.0.166",
+    "event_type": "analog_input",
+    "value": 138.6,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:46:02Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 33,
+    "source_ip": "10.0.0.222",
+    "event_type": "counter",
+    "value": 26,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:46:12Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 38,
+    "source_ip": "10.0.0.230",
+    "event_type": "analog_input",
+    "value": 129.9,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:46:17Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 41,
+    "source_ip": "10.0.0.109",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:46:24Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 6,
+    "source_ip": "10.0.0.118",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:46:33Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 53,
+    "source_ip": "10.0.0.8",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:46:40Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 73,
+    "source_ip": "10.0.0.81",
+    "event_type": "analog_input",
+    "value": 145.7,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:46:50Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 22,
+    "source_ip": "10.0.0.105",
+    "event_type": "counter",
+    "value": 15,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:47:00Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 70,
+    "source_ip": "10.0.0.208",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:47:07Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 19,
+    "source_ip": "10.0.0.81",
+    "event_type": "analog_input",
+    "value": 86.6,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:47:14Z",
+    "device_id": "RTU-007",
+    "protocol": "DNP3",
+    "index": 94,
+    "source_ip": "10.0.0.110",
+    "event_type": "analog_input",
+    "value": 75.8,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:47:20Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 2,
+    "source_ip": "10.0.0.168",
+    "event_type": "counter",
+    "value": 63,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:47:27Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 73,
+    "source_ip": "10.0.0.123",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:47:35Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 88,
+    "source_ip": "10.0.0.222",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:47:45Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 63,
+    "source_ip": "10.0.0.172",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:47:52Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 4,
+    "source_ip": "10.0.0.27",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:48:01Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 58,
+    "source_ip": "10.0.0.148",
+    "event_type": "analog_input",
+    "value": 218.3,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:48:10Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 8,
+    "source_ip": "10.0.0.157",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:48:15Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 16,
+    "source_ip": "10.0.0.201",
+    "event_type": "counter",
+    "value": 73,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:48:25Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 75,
+    "source_ip": "10.0.0.207",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:48:33Z",
+    "device_id": "RTU-018",
+    "protocol": "DNP3",
+    "index": 24,
+    "source_ip": "10.0.0.63",
+    "event_type": "counter",
+    "value": 80,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:48:43Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 90,
+    "source_ip": "10.0.0.149",
+    "event_type": "counter",
+    "value": 20,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:48:52Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 55,
+    "source_ip": "10.0.0.240",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:48:57Z",
+    "device_id": "RTU-015",
+    "protocol": "DNP3",
+    "index": 36,
+    "source_ip": "10.0.0.16",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:49:06Z",
+    "device_id": "RTU-007",
+    "protocol": "DNP3",
+    "index": 58,
+    "source_ip": "10.0.0.122",
+    "event_type": "analog_input",
+    "value": 75.7,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:49:11Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 56,
+    "source_ip": "10.0.0.184",
+    "event_type": "analog_input",
+    "value": 212.8,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:49:19Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 74,
+    "source_ip": "10.0.0.136",
+    "event_type": "counter",
+    "value": 24,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:49:25Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 98,
+    "source_ip": "10.0.0.126",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:49:34Z",
+    "device_id": "RTU-018",
+    "protocol": "DNP3",
+    "index": 21,
+    "source_ip": "10.0.0.27",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:49:40Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 21,
+    "source_ip": "10.0.0.253",
+    "event_type": "counter",
+    "value": 21,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:49:49Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 18,
+    "source_ip": "10.0.0.145",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:49:54Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 34,
+    "source_ip": "10.0.0.32",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:50:04Z",
+    "device_id": "RTU-007",
+    "protocol": "DNP3",
+    "index": 68,
+    "source_ip": "10.0.0.170",
+    "event_type": "analog_input",
+    "value": 100.3,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:50:09Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 32,
+    "source_ip": "10.0.0.170",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:50:16Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 60,
+    "source_ip": "10.0.0.72",
+    "event_type": "counter",
+    "value": 98,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:50:23Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 60,
+    "source_ip": "10.0.0.152",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:50:30Z",
+    "device_id": "RTU-018",
+    "protocol": "DNP3",
+    "index": 17,
+    "source_ip": "10.0.0.221",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:50:38Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 0,
+    "source_ip": "10.0.0.182",
+    "event_type": "counter",
+    "value": 18,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:50:48Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 17,
+    "source_ip": "10.0.0.175",
+    "event_type": "counter",
+    "value": 24,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:50:57Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 13,
+    "source_ip": "10.0.0.162",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:51:06Z",
+    "device_id": "RTU-015",
+    "protocol": "DNP3",
+    "index": 30,
+    "source_ip": "10.0.0.35",
+    "event_type": "counter",
+    "value": 4,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:51:12Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 24,
+    "source_ip": "10.0.0.165",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:51:19Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 81,
+    "source_ip": "10.0.0.187",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:51:25Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 37,
+    "source_ip": "10.0.0.237",
+    "event_type": "counter",
+    "value": 93,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:51:30Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 29,
+    "source_ip": "10.0.0.227",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:51:37Z",
+    "device_id": "RTU-012",
+    "protocol": "DNP3",
+    "index": 8,
+    "source_ip": "10.0.0.80",
+    "event_type": "analog_input",
+    "value": 154.9,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:51:42Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 79,
+    "source_ip": "10.0.0.110",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:51:52Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 27,
+    "source_ip": "10.0.0.87",
+    "event_type": "analog_input",
+    "value": 61.9,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:52:00Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 41,
+    "source_ip": "10.0.0.125",
+    "event_type": "analog_input",
+    "value": 54.7,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:52:10Z",
+    "device_id": "RTU-007",
+    "protocol": "DNP3",
+    "index": 12,
+    "source_ip": "10.0.0.212",
+    "event_type": "counter",
+    "value": 18,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:52:17Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 87,
+    "source_ip": "10.0.0.149",
+    "event_type": "analog_input",
+    "value": 245.4,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:52:27Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 96,
+    "source_ip": "10.0.0.137",
+    "event_type": "analog_input",
+    "value": 188.3,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:52:34Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 17,
+    "source_ip": "10.0.0.88",
+    "event_type": "counter",
+    "value": 40,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:52:44Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 96,
+    "source_ip": "10.0.0.65",
+    "event_type": "analog_input",
+    "value": 51.7,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:52:49Z",
+    "device_id": "RTU-007",
+    "protocol": "DNP3",
+    "index": 97,
+    "source_ip": "10.0.0.104",
+    "event_type": "counter",
+    "value": 93,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:52:55Z",
+    "device_id": "RTU-007",
+    "protocol": "DNP3",
+    "index": 33,
+    "source_ip": "10.0.0.138",
+    "event_type": "analog_input",
+    "value": 125.3,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:53:01Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 46,
+    "source_ip": "10.0.0.56",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:53:07Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 32,
+    "source_ip": "10.0.0.210",
+    "event_type": "analog_input",
+    "value": 10.6,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:53:16Z",
+    "device_id": "RTU-012",
+    "protocol": "DNP3",
+    "index": 7,
+    "source_ip": "10.0.0.109",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:53:21Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 52,
+    "source_ip": "10.0.0.149",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:53:26Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 46,
+    "source_ip": "10.0.0.79",
+    "event_type": "counter",
+    "value": 7,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:53:36Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 81,
+    "source_ip": "10.0.0.197",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:53:43Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 36,
+    "source_ip": "10.0.0.112",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:53:53Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 43,
+    "source_ip": "10.0.0.9",
+    "event_type": "analog_input",
+    "value": 190.3,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:54:01Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 51,
+    "source_ip": "10.0.0.145",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:54:11Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 61,
+    "source_ip": "10.0.0.203",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:54:19Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 85,
+    "source_ip": "10.0.0.189",
+    "event_type": "analog_input",
+    "value": 239.7,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:54:29Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 4,
+    "source_ip": "10.0.0.119",
+    "event_type": "counter",
+    "value": 85,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:54:34Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 6,
+    "source_ip": "10.0.0.233",
+    "event_type": "counter",
+    "value": 93,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:54:44Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 30,
+    "source_ip": "10.0.0.89",
+    "event_type": "analog_input",
+    "value": 161.2,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:54:49Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 71,
+    "source_ip": "10.0.0.22",
+    "event_type": "analog_input",
+    "value": 135.2,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:54:59Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 93,
+    "source_ip": "10.0.0.206",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:55:04Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 83,
+    "source_ip": "10.0.0.154",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:55:11Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 36,
+    "source_ip": "10.0.0.42",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:55:16Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 55,
+    "source_ip": "10.0.0.241",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:55:23Z",
+    "device_id": "RTU-007",
+    "protocol": "DNP3",
+    "index": 2,
+    "source_ip": "10.0.0.12",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:55:30Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 33,
+    "source_ip": "10.0.0.60",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:55:37Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 65,
+    "source_ip": "10.0.0.210",
+    "event_type": "analog_input",
+    "value": 157.2,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:55:42Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 76,
+    "source_ip": "10.0.0.160",
+    "event_type": "counter",
+    "value": 29,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:55:50Z",
+    "device_id": "RTU-018",
+    "protocol": "DNP3",
+    "index": 45,
+    "source_ip": "10.0.0.120",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:55:59Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 88,
+    "source_ip": "10.0.0.51",
+    "event_type": "analog_input",
+    "value": 156.6,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:56:06Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 47,
+    "source_ip": "10.0.0.48",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:56:15Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 57,
+    "source_ip": "10.0.0.61",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:56:22Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 11,
+    "source_ip": "10.0.0.17",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:56:27Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 49,
+    "source_ip": "10.0.0.59",
+    "event_type": "counter",
+    "value": 50,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:56:32Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 45,
+    "source_ip": "10.0.0.79",
+    "event_type": "analog_input",
+    "value": 26.8,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:56:40Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 72,
+    "source_ip": "10.0.0.123",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:56:48Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 51,
+    "source_ip": "10.0.0.74",
+    "event_type": "analog_input",
+    "value": 70.5,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:56:58Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 68,
+    "source_ip": "10.0.0.92",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:57:07Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 19,
+    "source_ip": "10.0.0.231",
+    "event_type": "analog_input",
+    "value": 192.1,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:57:15Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 84,
+    "source_ip": "10.0.0.139",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:57:23Z",
+    "device_id": "RTU-009",
+    "protocol": "DNP3",
+    "index": 39,
+    "source_ip": "10.0.0.172",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:57:28Z",
+    "device_id": "RTU-010",
+    "protocol": "DNP3",
+    "index": 96,
+    "source_ip": "10.0.0.137",
+    "event_type": "analog_input",
+    "value": 25.0,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:57:37Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 17,
+    "source_ip": "10.0.0.193",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:57:46Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 12,
+    "source_ip": "10.0.0.42",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:57:56Z",
+    "device_id": "RTU-007",
+    "protocol": "DNP3",
+    "index": 96,
+    "source_ip": "10.0.0.10",
+    "event_type": "analog_input",
+    "value": 161.1,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:58:02Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 76,
+    "source_ip": "10.0.0.44",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:58:08Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 51,
+    "source_ip": "10.0.0.35",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:58:16Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 38,
+    "source_ip": "10.0.0.166",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:58:24Z",
+    "device_id": "RTU-015",
+    "protocol": "DNP3",
+    "index": 7,
+    "source_ip": "10.0.0.197",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:58:30Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 98,
+    "source_ip": "10.0.0.252",
+    "event_type": "counter",
+    "value": 90,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:58:36Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 63,
+    "source_ip": "10.0.0.104",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:58:41Z",
+    "device_id": "RTU-001",
+    "protocol": "DNP3",
+    "index": 35,
+    "source_ip": "10.0.0.31",
+    "event_type": "status",
+    "value": "WARN",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:58:49Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 79,
+    "source_ip": "10.0.0.98",
+    "event_type": "counter",
+    "value": 96,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:58:56Z",
+    "device_id": "RTU-007",
+    "protocol": "DNP3",
+    "index": 55,
+    "source_ip": "10.0.0.50",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:59:03Z",
+    "device_id": "RTU-012",
+    "protocol": "DNP3",
+    "index": 72,
+    "source_ip": "10.0.0.3",
+    "event_type": "analog_input",
+    "value": 152.0,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:59:10Z",
+    "device_id": "RTU-017",
+    "protocol": "DNP3",
+    "index": 83,
+    "source_ip": "10.0.0.127",
+    "event_type": "counter",
+    "value": 62,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:59:15Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 90,
+    "source_ip": "10.0.0.180",
+    "event_type": "counter",
+    "value": 19,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:59:22Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 55,
+    "source_ip": "10.0.0.239",
+    "event_type": "counter",
+    "value": 22,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:59:32Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 94,
+    "source_ip": "10.0.0.121",
+    "event_type": "analog_input",
+    "value": 220.4,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T08:59:41Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 56,
+    "source_ip": "10.0.0.97",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:59:47Z",
+    "device_id": "RTU-004",
+    "protocol": "DNP3",
+    "index": 11,
+    "source_ip": "10.0.0.23",
+    "event_type": "counter",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T08:59:56Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 54,
+    "source_ip": "10.0.0.158",
+    "event_type": "counter",
+    "value": 4,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T09:00:02Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 91,
+    "source_ip": "10.0.0.203",
+    "event_type": "counter",
+    "value": 84,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T09:00:10Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 81,
+    "source_ip": "10.0.0.71",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T09:00:19Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 96,
+    "source_ip": "10.0.0.51",
+    "event_type": "analog_input",
+    "value": 185.1,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T09:00:28Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 99,
+    "source_ip": "10.0.0.129",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T09:00:34Z",
+    "device_id": "RTU-012",
+    "protocol": "DNP3",
+    "index": 35,
+    "source_ip": "10.0.0.87",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T09:00:40Z",
+    "device_id": "RTU-015",
+    "protocol": "DNP3",
+    "index": 4,
+    "source_ip": "10.0.0.112",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T09:00:46Z",
+    "device_id": "RTU-006",
+    "protocol": "DNP3",
+    "index": 12,
+    "source_ip": "10.0.0.215",
+    "event_type": "analog_input",
+    "value": 222.9,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T09:00:55Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 8,
+    "source_ip": "10.0.0.231",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T09:01:01Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 77,
+    "source_ip": "10.0.0.148",
+    "event_type": "digital_input",
+    "value": 0,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T09:01:11Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 72,
+    "source_ip": "10.0.0.94",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T09:01:17Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 81,
+    "source_ip": "10.0.0.208",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T09:01:22Z",
+    "device_id": "RTU-008",
+    "protocol": "DNP3",
+    "index": 0,
+    "source_ip": "10.0.0.197",
+    "event_type": "analog_input",
+    "value": 168.3,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T09:01:29Z",
+    "device_id": "RTU-002",
+    "protocol": "DNP3",
+    "index": 35,
+    "source_ip": "10.0.0.253",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T09:01:38Z",
+    "device_id": "RTU-018",
+    "protocol": "DNP3",
+    "index": 40,
+    "source_ip": "10.0.0.163",
+    "event_type": "counter",
+    "value": 96,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T09:01:43Z",
+    "device_id": "RTU-016",
+    "protocol": "DNP3",
+    "index": 61,
+    "source_ip": "10.0.0.161",
+    "event_type": "counter",
+    "value": 66,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T09:01:53Z",
+    "device_id": "RTU-015",
+    "protocol": "DNP3",
+    "index": 34,
+    "source_ip": "10.0.0.131",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T09:01:58Z",
+    "device_id": "RTU-011",
+    "protocol": "DNP3",
+    "index": 79,
+    "source_ip": "10.0.0.135",
+    "event_type": "status",
+    "value": "FAIL",
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T09:02:04Z",
+    "device_id": "RTU-014",
+    "protocol": "DNP3",
+    "index": 35,
+    "source_ip": "10.0.0.110",
+    "event_type": "digital_input",
+    "value": 1,
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T09:02:12Z",
+    "device_id": "RTU-020",
+    "protocol": "DNP3",
+    "index": 25,
+    "source_ip": "10.0.0.2",
+    "event_type": "counter",
+    "value": 49,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T09:02:21Z",
+    "device_id": "RTU-003",
+    "protocol": "DNP3",
+    "index": 96,
+    "source_ip": "10.0.0.186",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  },
+  {
+    "timestamp": "2025-08-01T09:02:31Z",
+    "device_id": "RTU-013",
+    "protocol": "DNP3",
+    "index": 15,
+    "source_ip": "10.0.0.15",
+    "event_type": "counter",
+    "value": 70,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T09:02:41Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 41,
+    "source_ip": "10.0.0.56",
+    "event_type": "analog_input",
+    "value": 42.3,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T09:02:49Z",
+    "device_id": "RTU-019",
+    "protocol": "DNP3",
+    "index": 53,
+    "source_ip": "10.0.0.158",
+    "event_type": "counter",
+    "value": 8,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T09:02:57Z",
+    "device_id": "RTU-012",
+    "protocol": "DNP3",
+    "index": 97,
+    "source_ip": "10.0.0.83",
+    "event_type": "counter",
+    "value": 35,
+    "severity": "warning"
+  },
+  {
+    "timestamp": "2025-08-01T09:03:02Z",
+    "device_id": "RTU-005",
+    "protocol": "DNP3",
+    "index": 65,
+    "source_ip": "10.0.0.14",
+    "event_type": "status",
+    "value": "OK",
+    "severity": "info"
+  }
 ]
