@@ -83,21 +83,30 @@ ICS-telemetry-dataset/
 
 
 ## ⚔️ Normal vs. Attack Logs
-
-To support anomaly detection and cybersecurity testing, this dataset is organized into **normal** and **attack** telemetry samples across multiple ICS protocols.
+To support anomaly detection, ICS threat modeling, and cybersecurity research, this dataset is organized into normal, attack, and hybrid telemetry samples across multiple industrial protocols. All logs are generated using purpose-built Python scripts located in the generators/ directory, including the unified generate_ics_logs.py script for full-batch generation.
 
 ### 🔹 Normal Logs
-These represent baseline operations under expected conditions:
-- Standard Modbus and DNP3 traffic
-- OpenPLC runtime logs from ladder logic execution
-- SCADA event traces without malicious interference
+These represent baseline operations under expected conditions, useful for training models and establishing behavioral baselines:
+
+Standard Modbus and DNP3 traffic with valid coil/register operations
+
+OpenPLC runtime logs from ladder logic execution without interference
+
+SCADA event traces reflecting routine control and monitoring activity
 
 ### 🔺 Attack Logs
-These simulate or replicate known ICS attack patterns:
-- **Stuxnet-style Modbus manipulation** (e.g., false feedback loops)
-- **CrashOverride DNP3 disruptions** (e.g., command flooding)
-- **TRISIS SCADA tampering** (e.g., safety logic overwrite)
-- **LabShock-injected anomalies** into OpenPLC telemetry
+These simulate or replicate known ICS attack patterns and adversarial behaviors:
+
+Stuxnet-style Modbus manipulation — false feedback loops, unauthorized coil writes
+
+CrashOverride DNP3 disruptions — command flooding, malformed packets
+
+TRISIS SCADA tampering — safety logic overwrite, unauthorized state changes
+
+LabShock-injected anomalies — synthetic fault injection into OpenPLC telemetry
+
+### ⚫ Hybrid Logs
+These combine normal and attack events to reflect real-world conditions where malicious activity is interleaved with legitimate operations. Useful for testing detection thresholds and model robustness.
 
 ### 🧠 How to Use
 
