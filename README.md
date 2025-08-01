@@ -1,6 +1,15 @@
 # ICS Telemetry Dataset
+## Overview
+This repository provides structured telemetry data from simulated industrial control systems (ICS), including SCADA and PLC event logs. It is designed to support research, testing, and development of cybersecurity tools, anomaly detection models, and log ingestion pipelines.
 
-This repository contains a curated dataset of telemetry logs from Industrial Control Systems (ICS), designed to support research, testing, and development in cybersecurity, anomaly detection, and AI-powered diagnostics.
+## 📦 Contents
+datasets/: CSV and JSON files containing timestamped ICS events
+
+schemas/: Field definitions and formatting standards
+
+generators/: Scripts for producing synthetic telemetry
+
+docs/: Documentation and usage examples
 
 ## 📦 Dataset Overview
 
@@ -30,30 +39,48 @@ ICS-telemetry-dataset/
 ├── modbus/
 │   ├── normal/
 │   │   └── modbus_normal.csv
-│   └── attack/
-│       └── modbus_attack_stuxnet_sim.csv
+│   ├── attack/
+│   │   └── modbus_attack_stuxnet_sim.csv
+│   └── hybrid/
+│       └── modbus_hybrid_mixed.csv
 ├── dnp3/
 │   ├── normal/
 │   │   └── dnp3_normal.json
-│   └── attack/
-│       └── dnp3_attack_crashoverride.json
+│   ├── attack/
+│   │   └── dnp3_attack_crashoverride.json
+│   └── hybrid/
+│       └── dnp3_hybrid_mixed.json
 ├── scada/
 │   ├── normal/
 │   │   └── scada_normal_log.csv
-│   └── attack/
-│       └── scada_attack_trisis.csv
+│   ├── attack/
+│   │   └── scada_attack_trisis.csv
+│   └── hybrid/
+│       └── scada_hybrid_mixed.csv
 ├── openplc/
 │   ├── normal/
 │   │   └── openplc_runtime_log.csv
-│   └── attack/
-│       └── openplc_labshock_injected.csv
+│   ├── attack/
+│   │   └── openplc_labshock_injected.csv
+│   └── hybrid/
+│       └── openplc_hybrid_mixed.csv
 ├── labshock/
-│   ├── synthetic/
+│   ├── normal/
 │   │   └── labshock_synthetic_anomalies.csv
-│   └── injected/
-│       └── labshock_openplc_injection.csv
+│   ├── attack/
+│   │   └── labshock_openplc_injection.csv
+│   └── hybrid/
+│       └── labshock_hybrid_mixed.csv
+├── generators/
+│   ├── generate_modbus.py
+│   ├── generate_dnp3.py
+│   ├── generate_scada.py
+│   ├── generate_openplc.py
+│   ├── generate_labshock.py
+│   └── generate_ics_logs.py  # Unified generator for all telemetry types
 ├── README.md
 └── LICENSE
+
 
 ## ⚔️ Normal vs. Attack Logs
 
@@ -84,11 +111,6 @@ These simulate or replicate known ICS attack patterns:
 - Build dashboards to visualize telemetry shifts
 - Create alerts based on known attack signatures
 
-#### 🧪 AI-Powered Diagnostics
-- Use RAG systems to retrieve relevant attack context
-- Test AI models on mixed telemetry for robustness
-
----
 
 **Tip:** Each protocol folder contains both `normal/` and `attack/` subfolders for easy comparison and ingestion.
 
