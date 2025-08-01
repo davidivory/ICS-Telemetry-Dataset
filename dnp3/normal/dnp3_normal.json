@@ -1,0 +1,12 @@
+[
+  {"timestamp":"2025-08-01T08:00:00Z","device_id":"RTU-001","protocol":"DNP3","event_type":"analog_input","index":0,"value":123.4,"severity":"info","source_ip":"10.0.0.1"},
+  {"timestamp":"2025-08-01T08:00:05Z","device_id":"RTU-002","protocol":"DNP3","event_type":"digital_input","index":1,"value":1,"severity":"info","source_ip":"10.0.0.2"},
+  {"timestamp":"2025-08-01T08:00:10Z","device_id":"RTU-003","protocol":"DNP3","event_type":"status","index":2,"value":"OK","severity":"info","source_ip":"10.0.0.3"},
+  {"timestamp":"2025-08-01T08:00:15Z","device_id":"RTU-004","protocol":"DNP3","event_type":"counter","index":3,"value":42,"severity":"info","source_ip":"10.0.0.4"},
+  {"timestamp":"2025-08-01T08:00:20Z","device_id":"RTU-005","protocol":"DNP3","event_type":"analog_input","index":4,"value":98.7,"severity":"info","source_ip":"10.0.0.5"},
+  {"timestamp":"2025-08-01T08:00:25Z","device_id":"RTU-006","protocol":"DNP3","event_type":"digital_input","index":5,"value":0,"severity":"info","source_ip":"10.0.0.6"},
+  {"timestamp":"2025-08-01T08:00:30Z","device_id":"RTU-007","protocol":"DNP3","event_type":"status","index":6,"value":"WARN","severity":"warning","source_ip":"10.0.0.7"},
+  {"timestamp":"2025-08-01T08:00:35Z","device_id":"RTU-008","protocol":"DNP3","event_type":"counter","index":7,"value":43,"severity":"info","source_ip":"10.0.0.8"},
+  {"timestamp":"2025-08-01T08:00:40Z","device_id":"RTU-009","protocol":"DNP3","event_type":"analog_input","index":8,"value":110.2,"severity":"info","source_ip":"10.0.0.9"},
+  {"timestamp":"2025-08-01T08:00:45Z","device_id":"RTU-010","protocol":"DNP3","event_type":"digital_input","index":9,"value":1,"severity":"info","source_ip":"10.0.0.10"}
+]
